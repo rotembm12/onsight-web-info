@@ -1,0 +1,94 @@
+.content{
+    margin: 0px auto;
+    max-width: 1040px;
+    padding: 0px 14px;
+    direction: ltr;
+}
+
+@media (min-width: 679px){
+    div.logos .vcenter {
+        padding: 10px 26px;
+        height: 110px;
+
+    }
+}
+@media (max-width: 680px){
+    div.logos .vcenter{
+    width: 50%;
+    padding: 8px 19px;
+    height: 110px;
+    }
+    div.logos .vcenter img{
+        margin: 0!important;
+    }
+    #circle {
+        padding: 0 20%;
+    }
+
+}
+@media (max-width: 414px){
+    div.logos .vcenter{
+    padding: 15px 4px;
+    }
+    #circle {
+        padding: 0px 32px;
+    }
+}
+@media (max-width: 505px){
+    div.logos .vcenter{
+    padding: 15px 4px;
+    }
+   
+}
+@media (min-width: 920px){
+    .logos img {
+        padding: 5px 28px;
+    }
+}
+@media(min-width:911px){
+    #circle{
+        padding: 0 30%;
+    } 
+}
+@media(max-width:911px){
+    #circle{
+        padding: 0 20%;
+    } 
+}
+
+@media (max-width: 979px){
+    #secondary-content {
+        margin-left: 0;
+        width: 100%;
+        float: none;
+        border: 0px;
+        padding: 40px 0 20px;
+        position: relative;
+    }
+}
+
+.logos{
+    width:100%;
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
+.logos img{
+    width: 100%;
+    height: auto;
+
+}
+.vcenter{
+    display:flex;
+    vertical-align: middle;
+    height: 130px;
+    float: left;
+    width: 33.33%;
+    padding: 10px 40px;
+}
+.center-block{
+    margin: 0 auto;
+    float:none;
+}
+.malben{
+padding: 17px 0px;
+}

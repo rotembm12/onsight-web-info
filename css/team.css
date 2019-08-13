@@ -1,0 +1,176 @@
+
+
+p { margin: 0 0 20px; line-height: 1.7; }
+a { text-decoration: none; color: #62686c; -webkit-transition: all 0.3s; -moz-transition: all 0.3s; transition: all 0.3s; }
+a:focus, a:hover { text-decoration: none; color: #f67800; }
+
+.content{padding-top:80px; padding-bottom:80px;}
+.mb40{margin-bottom:10vh;}
+.mt-4{margin-top:4vw;}
+.team-block { margin-bottom: 20px; }
+.team-content { position: absolute; background-color: rgba(17, 24, 31, 0.8); bottom: 0px; display: inline-block; width: 100%; color: #fff; padding: 30px; }
+.team-img { position: relative; }
+.team-img img { width: 100%; }
+.team-meta { padding-bottom: 10px; color: #9da4aa; font-weight: 400; font-size: 18px; }
+.overlay { border-radius: 0px; position: absolute; top: 0; bottom: 0; left: 0; right: 0; height: 100%; width: 100%; opacity: 0; transition: 1s ease; background-color: #11181f; }
+
+.team-img:hover .overlay { opacity: .8; }
+.team-img:hover .team-content { opacity: 0; }
+.text{ color: #fff; position: absolute; top: 30%; left: 30%; transform: translate(-26%, -26%); -ms-transform: translate(-26%, -26%); right: 0; font-weight: 400; font-size: 16px; }
+.text-white{color: #fff;}
+.team_content ul li {
+    list-style: none;
+    display: inline-block;
+  }
+.team_content ul li:first-child {
+    padding: 0;
+  }
+.team_content ul li a {
+    font-size: 14px;
+    color: #fff;
+    line-height: 43px;
+    width: 45px;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    display: block;
+  }
+@media(min-width:992px){
+	.text1{
+		right:0;
+	}
+}
+@media (max-width: 768px){
+    .team-block{
+        float: none;
+        margin: 30px auto;
+    }
+    .text1{
+		width: 80%;
+	}
+	
+
+}
+@media (max-width: 1199px){
+    .text , .team-meta{
+        font-size:20px;
+    }
+    .text p{
+        padding-top:10px;
+    }
+    .text h3{
+        font-size: 30px;
+    }
+    .text .team-meta{
+        padding-bottom: 10px;
+    }
+}  
+
+@media (max-width: 414px){
+	#padh2{
+		padding: 0;
+		padding-bottom: 40px;
+		font-size: 28px;
+	}
+}
+ul.social-network {
+	list-style: none;
+	display: inline;
+	margin-left:0 !important;
+	padding: 0;
+}
+ul.social-network li {
+	display: inline;
+	margin: 0 5px;
+}
+
+
+/* footer social icons */
+.social-network a.icoRss:hover {
+	background-color: #F56505;
+}
+.social-network a.icoFacebook:hover {
+	background-color:#3B5998;
+}
+.social-network a.icoTwitter:hover {
+	background-color:#33ccff;
+}
+.social-network a.icoGoogle:hover {
+	background-color:#BD3518;
+}
+.social-network a.icoVimeo:hover {
+	background-color:#0590B8;
+}
+.social-network a.icoLinkedin:hover {
+	background-color:#007bb7;
+}
+.social-network a.icoRss:hover i, .social-network a.icoFacebook:hover i, .social-network a.icoTwitter:hover i,
+.social-network a.icoGoogle:hover i, .social-network a.icoVimeo:hover i, .social-network a.icoLinkedin:hover i {
+	color:#fff;
+}
+a.socialIcon:hover, .socialHoverClass {
+	color:#44BCDD;
+}
+
+.social-circle li a {
+	display:inline-block;
+	position:relative;
+	margin:0 auto 0 auto;
+	-moz-border-radius:50%;
+	-webkit-border-radius:50%;
+	border-radius:50%;
+	text-align:center;
+	width: 50px;
+	height: 50px;
+	font-size:20px;
+}
+.social-circle li i {
+	margin:0;
+	line-height:50px;
+	text-align: center;
+}
+
+.social-circle li a:hover i, .triggeredHover {
+	-moz-transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+	-ms--transform: rotate(360deg);
+	transform: rotate(360deg);
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	transition: all 0.2s;
+}
+.social-circle i {
+	color: #fff;
+	-webkit-transition: all 0.8s;
+	-moz-transition: all 0.8s;
+	-o-transition: all 0.8s;
+	-ms-transition: all 0.8s;
+	transition: all 0.8s;
+}
+
+.social-circle li a {
+ background-color: #b3acac;   
+}
+.buynow--btn {
+    font-size: 18px;
+    padding: 14px 30px;
+    min-width: 148px;
+    border-radius: 25px;
+	margin: 0;
+	font-weight: 700;
+	color: #212529
+}
+.overlay1{
+	display: none;
+	background-color: rgba(0,0,0,0.5);
+	z-index: 2;
+	cursor: pointer;
+}
+.text1{
+	color: #fff; 
+	position: absolute; 
+	font-weight: 400; font-size: 18px;
+	padding: 4rem 20px;
+}

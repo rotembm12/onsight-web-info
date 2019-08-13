@@ -1,0 +1,150 @@
+
+
+  
+  
+
+  
+  
+  
+ 
+  
+  
+  @keyframes moveInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+  }
+  
+  @keyframes moveInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(+100px);
+    }
+    
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+  }
+  @keyframes moveInBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(+50px) rotate(180deg);
+        
+    }
+    50%{
+        opacity: 0.5;
+        
+  
+    }
+    
+    100% {
+        opacity: 1;
+        transform: tra
+        nslate(0) rotate(0);
+    }
+  }
+  
+ 
+
+  
+  .btn:hover{
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0,0,0,.2);
+  }
+  
+  .btn:active{
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+  }
+  
+  .btn_white{
+    background-color: #fff;
+    color: #777;
+  }
+  .btn_orange{
+    background-color: #F6B60B;
+    color: #fff;
+    font-size: 20px;
+  }
+  
+  .btn::after{
+    content:"";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .4s;
+  }
+  
+  .btn-white::after{
+    background-color: #fff;
+  }
+  
+  .btn:hover::after{
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+  }
+  
+  .subtittle {
+      animation: moveInLeft 1.5s;
+  }
+  .para_animated {
+      animation: moveInRight 1.5s;
+      animation-delay: 0.5s;
+      animation-fill-mode: both;
+
+  }
+  .button_all_animated {
+      animation: moveInLeft 1.5s;
+      animation-delay: 1s;
+      animation-fill-mode: both;
+  }
+  .about_client {
+      animation: moveInRight 1.5s;
+      /* animation-delay: 3s;
+      animation-fill-mode: both; */
+  }
+
+  .first_animated {
+      animation:moveInRight 1.5s;
+  }
+  .second_animated {
+      animation:moveInRight 1.5s;
+      animation-delay: 0.5s;
+      animation-fill-mode: both;
+  }
+  .third_animated {
+      animation:moveInRight 1.5s;
+      animation-delay: 1s;
+      animation-fill-mode: both;
+  }
+  .fourth_animated {
+      animation:moveInRight 1.5s;
+      animation-delay: 1.5s;
+      animation-fill-mode: both;
+  } 
+  img.auto_size_img{
+    max-width:100%;
+    max-height:100%;
+    border-radius:5%; 
+  }
+  div.shadow_card{
+    box-shadow: 3px 3px 5px 6px rgba(73, 71, 71,0.5);
+    border-radius: 5%;
+  }
+  
+
+  /*--------------------------------------------------*/
+  
+  /*# sourceMappingURL=style.css.map */
